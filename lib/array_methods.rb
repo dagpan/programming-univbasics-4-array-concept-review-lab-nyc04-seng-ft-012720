@@ -12,7 +12,7 @@ def find_element_index(array1 = [11,2,3,1,12,13], value = 11)
 end
 
 
-def find_max_value(array)
+def find_max_value(array1 = [11,2,3,1,12,13,5,9,10,50,45])
   
   
   
