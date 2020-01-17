@@ -15,11 +15,11 @@
 
 
 
-def find_element_index(array = [11,2,3,1,12,13], value = 11)
+def find_element_index(array1 = [11,2,3,1,12,13], value = 11)
   # Add your solution here
   index = 0
-  while array[index] do
-       if array[index] == value
+  while array1[index]
+       if array1[index] == value
           return index
           index += 1
        else
