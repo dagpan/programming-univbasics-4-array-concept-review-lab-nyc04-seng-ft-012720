@@ -18,11 +18,11 @@
 def find_element_index(array = [11,2,3,1,12,13], value = 11)
   # Add your solution here
   index = 0
-  while index < array.length
-       if array[index] != value
-          return nil
-       else
+  while array[index] do
+       if array[index] == value
           return index
+       else
+          return nil
        end
        index += 1
   end
